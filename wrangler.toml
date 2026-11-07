@@ -1,0 +1,17 @@
+name = "asdle-core-2026"
+main = "worker.js"
+compatibility_date = "2026-11-05"
+workers_dev = true
+preview_urls = false
+
+[observability]
+enabled = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "asdle-core-db"
+# بعد إنشاء قاعدة D1 جديدة، ضع database_id الحقيقي هنا قبل النشر.
+database_id = "PUT_NEW_D1_DATABASE_ID_HERE"
+
+[vars]
+DEBUG = "false"
